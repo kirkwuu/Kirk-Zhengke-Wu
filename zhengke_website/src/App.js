@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 function App() {
   return (
     <Router>
-      <div className="min-h-screen bg-white text-gray-900">
+      <div className="min-h-screen bg-white text-gray-900 font-sans">
         <header className="p-4 shadow-md">
           <div className="container mx-auto flex justify-between items-center">
             <h1 className="text-2xl font-bold">Zhengke Wu</h1>
@@ -36,25 +36,10 @@ function App() {
 function Home() {
   return <div className="text-center text-xl">Welcome to Zhengke Wu's website.</div>;
 }
-
-function Portfolio() {
-  return <div>Portfolio content coming soon.</div>;
-}
-
-function Research() {
-  return <div>Research content coming soon.</div>;
-}
-
-function Resume() {
-  return <div>Resume content coming soon.</div>;
-}
-
-function About() {
-  return <div>About content coming soon.</div>;
-}
-
-function Contact() {
-  return <div>Contact information coming soon.</div>;
-}
+function Portfolio() { return <div>Portfolio content coming soon.</div>; }
+function Research() { return <div>Research content coming soon.</div>; }
+function Resume() { return <div>Resume content coming soon.</div>; }
+function About() { return <div>About content coming soon.</div>; }
+function Contact() { return <div>Contact information coming soon.</div>; }
 
 export default App;
